@@ -1,7 +1,8 @@
+import core.BrowserFactory;
 import org.testng.annotations.Test;
 
 
-public class ParallelTestTry extends BrowserFactory{
+public class ParallelTestTry extends BrowserFactory {
 
     @Test
     void tryIt() throws InterruptedException {

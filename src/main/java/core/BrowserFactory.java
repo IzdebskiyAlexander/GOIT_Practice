@@ -1,4 +1,5 @@
-import org.openqa.selenium.WebDriver;
+package core;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
@@ -8,11 +9,9 @@ import org.testng.annotations.Parameters;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Alexander on 25.07.2016.
- */
-public class BrowserFactory {
-    static WebDriver driver;
+
+public class BrowserFactory extends MethodsFactory{
+
     @Parameters("browser")
     @BeforeTest
     public void setUp(@Optional("CH") String browser) {
