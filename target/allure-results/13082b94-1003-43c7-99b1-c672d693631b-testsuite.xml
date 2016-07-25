@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1469465127846" stop="1469465144837" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : Lesson_Pre_Last</name>
+    <title>Default Suite : Lesson_Pre_Last</title>
+    <test-cases>
+        <test-case start="1469465132781" stop="1469465141830" status="passed">
+            <name>tryIt</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="dell"/>
+                <label name="thread" value="5728@dell.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
